@@ -16,10 +16,16 @@
     url('../fonts/Runboy.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'basketball';
+    src:  url("../fonts/Basketball.otf") format("woff");
+}
+
 
 body{
     margin:0%;
-    background-color: gray;
+    background-image: url("../images/gray_background.jpg");
+    width: 100%;
 }
 
 #desktopWire{
@@ -28,10 +34,25 @@ body{
 
 .float-child{
     float: left;
-    padding: 50px;
+    padding: 100px;
 
 }
 
 h1,h2{
+    font-family: 'basketball';
     text-align: center;
+    font-size: 300%;
+    letter-spacing: 5px;
+    color: whitesmoke;
+}
+
+#sitemapLink{
+    text-align: center;
+    font-size: 300%;
+    color: #FFB001;
+    background-color: black;
+}
+#sitemapDiv{
+    float: left;
+    padding-left: 150px;
 }
