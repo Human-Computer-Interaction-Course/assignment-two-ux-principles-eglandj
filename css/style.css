@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'highjersey';
+    src:  url('../fonts/HighJersey.woff2') format('woff2'),
+        url('../fonts/High\ Jersey.woff') format('woff');      
+}
+
+@font-face {
+    font-family: 'highjerseyItalic';
+    src:  url('../fonts/HighJerseyItalic.woff2') format('woff2'),
+        url('../fonts/HighJerseyItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'runboy';
+    src:  url('../fonts/Runboy.woff2') format('woff2'),
+    url('../fonts/Runboy.woff') format('woff');
+}
+
+
+body{
+    margin:0%;
+    background-color: gray;
+}
+
+#desktopWire{
+    width: 100%;
+}
+
+.float-child{
+    float: left;
+    padding: 50px;
+
+}
+
+h1,h2{
+    text-align: center;
+}
