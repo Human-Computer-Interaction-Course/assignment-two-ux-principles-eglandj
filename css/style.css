@@ -69,12 +69,11 @@ p{
     text-align: center;
     font-size: 300%;
     color: #FFB001;
-    background-color: black;
+    padding-bottom: 50px;
 }
 
 #sitemapDiv{
     display: block;
-    padding-top: 50px;
 }
 
 hr{
